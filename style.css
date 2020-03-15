@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   background: black;
+  }
+  .frame{
+    width: 80%;
+    background: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+    padding: 6px;
+    border: 1px solid #00cccc;
+  }
+  table{
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  thead{
+   text-align: center;
+   font-size: 20px;
+   color: #00cccc;
+  }
+  tbody{
+    text-align: center;
+  }
+  th{
+    border-bottom: 2px solid;
+    border-radius: 10px;
+  }
+  td{
+    height: 28px;
+    width: 120px;
+    padding: 6px;
+    font-size: 20px; 
+  }
+  .prc{
+    margin-top: -16px;
+    letter-spacing: 2px;
+    font-family: 'Unica One', cursive;
+  }
+  .fp{
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: 'Unica One', cursive;
+  }
+  tbody tr:nth-child(even){
+      background: grey;
+      color: black;
+  }
+  tbody tr:nth-child(odd){
+      color: #dce1e8;
+  }
+  tbody tr:nth-child(even):hover{
+    background: #dce1e8;
+  }
+  tbody tr:nth-child(odd):hover{
+    background: white;
+    color: black;
+  }
+  .pagination{
+    width: 100%;
+    height: 80px;
+    color: white;
+    margin-top: -16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul{
+    list-style: none;
+    text-align: center;
+    font-family: 'Unica One', cursive;
+    margin-left: -50px;
+  }
+  li{
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 8px;
+    float: left;
+    margin: 16px;
+    padding: 3px;
+  }
+  li:hover{
+    cursor: pointer;
+    background: grey;
+    color: black;
+  }
+  li:active{
+    background: orange;
+  }
+  td:hover{
+    cursor: pointer;
+    color: #00cccc;
+  }
+  .long{
+    width: 50px;
+  }
+  .ttt{
+    background: #00cccc;
+  }
+  h3{
+    font-family: 'Unica One', cursive;
+    margin-bottom: -16px;
+    color: #00cccc;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
